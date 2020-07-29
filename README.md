@@ -31,8 +31,10 @@ myPower needs [numpy](https://github.com/numpy/numpy) and [oct2py](https://githu
 pip install numpy oct2py
 ```
 # Notable of functions
-1. to_mypc: Revert mypc indexing to start from 1 for octave compatibility
-2. to_mypc0: Fix mypc bus indexing to start from 0 for Pyhton compatibility
+1. losses_kron: Compute losses based on Kron's coefficient
+2. makeB_kron: Make B based on Kron's method
+3. to_mypc: Revert mypc indexing to start from 1 for octave compatibility
+4. to_mypc0: Fix mypc bus indexing to start from 0 for Pyhton compatibility
 
 # Authors
 * **Muhammad Yasirroni** - [yasirroni](https://github.com/yasirroni)
