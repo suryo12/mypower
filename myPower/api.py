@@ -1,12 +1,12 @@
-'''myPower.api
+'''mypower.api
 Pseudo package for all core functions of myPower.
 Example:
     # import function individually into namespace
-    from myPower.api import oc_matpower
+    from mypower.api import oc_matpower
     oc = oc_matpower
 
     # import all function
-    import myPower.api as myp
+    import mypower.api as myp
     oc = myp.oc_matpower
 '''
 
@@ -21,10 +21,11 @@ from .losses_kron import losses_kron
 from .losses_kron import losses_kron_detailed
 from .losses_kron_slope import losses_kron_slope
 from .losses_kron_slope import losses_kron_slope_detailed
+from .oc_addpath import oc_addpath
+from .oc_addgenpath import oc_addgenpath
 from .oc_matpower import oc_matpower
 from .pretty import pretty
 from .save_str import save_str
 from .save_pkl import save_pkl
 from .to_mypc import to_mypc
 from .to_mypc0 import to_mypc0
-

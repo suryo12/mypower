@@ -1,12 +1,12 @@
-'''myPower.matpower_ported
+'''mypower.matpower_ported
 Pseudo package for ported matpower function.
 Example:
     # import function individually into namespace
-    from myPower.matpower_api import runpf
+    from mypower.matpower_api import runpf
     mypc = runpf()
 
     # import all function
-    import myPower.matpower_api as mp
+    import mypower.matpower_api as mp
     mypc = mp.runpf()
 '''
 

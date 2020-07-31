@@ -1,4 +1,5 @@
 from .api import pretty
+
 def save_str(inp,path_file=None):
     if path_file==None:
         import os

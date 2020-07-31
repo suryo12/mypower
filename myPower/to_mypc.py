@@ -1,20 +1,22 @@
-from myPower.api import get_index
+import copy
+from .api import get_index
+
 def to_mypc(mypc):
     '''Make bus numbering start from 1
     Convenient for Octave indexing.
     '''
-    mypc0 = copy.deepcopy(mypc)
+    mypc_copy = copy.deepcopy(mypc)
     
     idx = get_index()
 
-    if min(mypc['bus'][:,idx['BUS_I']])==1:
-        return mypc
+    if min(mypc_copy['bus'][:,idx['BUS_I']])==1:
+        return mypc_copy
     
-    mypc['bus'][:,idx['BUS_I']]=range(1,len(mypc['bus'][:,idx['BUS_I']]) + 1)
+    mypc_copy['bus'][:,idx['BUS_I']]=range(1,len(mypc_copy['bus'][:,idx['BUS_I']]) + 1)
     
-    mypc['branch'][:,idx['F_BUS']]=mypc['branch'][:,idx['F_BUS']] + 1
-    mypc['branch'][:,idx['T_BUS']]=mypc['branch'][:,idx['T_BUS']] + 1
+    mypc_copy['branch'][:,idx['F_BUS']]=mypc_copy['branch'][:,idx['F_BUS']] + 1
+    mypc_copy['branch'][:,idx['T_BUS']]=mypc_copy['branch'][:,idx['T_BUS']] + 1
     
-    mypc['gen'][:,idx['GEN_BUS']]=mypc['gen'][:,idx['GEN_BUS']] + 1
+    mypc_copy['gen'][:,idx['GEN_BUS']]=mypc_copy['gen'][:,idx['GEN_BUS']] + 1
     
-    return mypc
+    return mypc_copy

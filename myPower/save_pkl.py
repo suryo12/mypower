@@ -1,4 +1,5 @@
 import pickle
+
 def save_pkl(inp,path_file=None):
     '''save in binary format using pickle
     inp         : any object, i.e. [mypc]<class 'oct2py.io.Struct'>

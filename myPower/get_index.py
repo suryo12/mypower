@@ -1,4 +1,5 @@
 import os
+
 def get_index(path_matpower_lib=None,exception='default',file_name='default'):
     '''myPower index based on MATPOWER
     Since MATPOWER based on MATLAB, matrix index need to be substracted by 1,

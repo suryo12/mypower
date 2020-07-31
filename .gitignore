@@ -1,6 +1,10 @@
 # Acknowledgement
 #  This template is based on: https://raw.githubusercontent.com/github/gitignore/master/Python.gitignore
 
+# Debug
+mypower_test.py
+mypower_test.ipynb
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]

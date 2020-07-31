@@ -1,4 +1,5 @@
 import numpy as np
+
 def losses_kron(B0_kron,B1_kron,B2_kron,gen_PG_point,baseMVA):
     """Compute losses based on Kron's Method."""
     gen_PG_point_pu = np.array(gen_PG_point) / baseMVA #convert to p.u.
