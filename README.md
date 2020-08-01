@@ -5,7 +5,7 @@ Supplementary function and port of [MATPOWER](https://github.com/MATPOWER/matpow
 Containing original myPower function.
 
 ## mypower/matpower_ported
-Containing callable ported MATPOWER function .
+Containing callable ported MATPOWER function with Oct2Py nout = max_nout.
 
 # Requirements
 ## Octave (Tutorial for Windows 10)

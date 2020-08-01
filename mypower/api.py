@@ -24,8 +24,10 @@ from .losses_kron_slope import losses_kron_slope_detailed
 from .oc_addpath import oc_addpath
 from .oc_addgenpath import oc_addgenpath
 from .oc_matpower import oc_matpower
+from .port import port
 from .pretty import pretty
 from .save_str import save_str
 from .save_pkl import save_pkl
+from .str_in import str_in
 from .to_mypc import to_mypc
 from .to_mypc0 import to_mypc0

@@ -6,6 +6,9 @@ mypower_test.py
 mypower_test.ipynb
 test_folder/
 
+# Patch
+mypower_patch.py
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
@@ -22,7 +25,7 @@ dist/
 downloads/
 eggs/
 .eggs/
-lib/
+# lib/ #MATPOWER using lib as folder name
 lib64/
 parts/
 sdist/

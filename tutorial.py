@@ -1,7 +1,6 @@
 # import library
 import os
-import myPower.api as myp
-import myPower.matpower_api as mp
+import mypower.api as myp
 
 # start octave session for myPower
 oc = myp.oc_matpower()

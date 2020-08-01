@@ -17,8 +17,8 @@ It means that all losses are evaluated in evaluation target scenario (DCPF)
 import os
 import copy
 
-import myPower.api as myp
-import myPower.matpower_api as mp
+import mypower.api as myp
+import mypower.matpower_api as mp
 
 ## set MATPOWER case_name
 case_name = 'case9'

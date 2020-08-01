@@ -1,7 +1,10 @@
 def count_nout(path):
+    '''count_nout
+    Count number of output of .m function.
+    '''
     nout = 0
     status = 'NOT FUNCTION'
-    with open(path, 'r') as f:
+    with open(path, encoding='utf8') as f:
         for l in f: 
             if l[0] != 'f': #not function
                 if status == 'NOT FUNCTION':
