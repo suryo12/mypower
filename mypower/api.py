@@ -16,7 +16,7 @@ from .get_index import get_index
 from .makeB_kron import makeB_kron
 from .makeB_kron_slope import makeB_kron_slope
 from .makeB_kron_slope import kron2slope
-from .load_object import load_object
+from .load_pkl import load_pkl
 from .losses_kron import losses_kron
 from .losses_kron import losses_kron_detailed
 from .losses_kron_slope import losses_kron_slope

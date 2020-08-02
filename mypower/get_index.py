@@ -8,7 +8,7 @@ def get_index(path_matpower_lib=None,exception='default',file_name='default'):
 
     '''
     if path_matpower_lib == None:
-        path_matpower_lib=os.path.join(os.getcwd(),'matpower\\lib')
+        path_matpower_lib=os.path.join(os.path.dirname(__file__ ),os.pardir,'matpower\\lib')
     
     if exception == 'default':
         exception = ['PQ','PV','REF','NONE','PW_LINEAR','POLYNOMIAL']
