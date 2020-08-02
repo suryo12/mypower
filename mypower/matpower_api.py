@@ -248,22 +248,22 @@ from .matpower_ported.lib.total_load import total_load
 from .matpower_ported.lib.totcost import totcost
 from .matpower_ported.lib.uopf import uopf
 from .matpower_ported.lib.update_mupq import update_mupq
-from .matpower_ported.lib.@opf_model.add_constraints import add_constraints
-from .matpower_ported.lib.@opf_model.add_costs import add_costs
-from .matpower_ported.lib.@opf_model.add_legacy_cost import add_legacy_cost
-from .matpower_ported.lib.@opf_model.add_named_set import add_named_set
-from .matpower_ported.lib.@opf_model.add_vars import add_vars
-from .matpower_ported.lib.@opf_model.build_cost_params import build_cost_params
-from .matpower_ported.lib.@opf_model.compute_cost import compute_cost
-from .matpower_ported.lib.@opf_model.display import display
-from .matpower_ported.lib.@opf_model.eval_legacy_cost import eval_legacy_cost
-from .matpower_ported.lib.@opf_model.getv import getv
-from .matpower_ported.lib.@opf_model.get_cost_params import get_cost_params
-from .matpower_ported.lib.@opf_model.get_mpc import get_mpc
-from .matpower_ported.lib.@opf_model.init_indexed_name import init_indexed_name
-from .matpower_ported.lib.@opf_model.linear_constraints import linear_constraints
-from .matpower_ported.lib.@opf_model.opf_model import opf_model
-from .matpower_ported.lib.@opf_model.params_legacy_cost import params_legacy_cost
+# from .matpower_ported.lib.@opf_model.add_constraints import add_constraints
+# from .matpower_ported.lib.@opf_model.add_costs import add_costs
+# from .matpower_ported.lib.@opf_model.add_legacy_cost import add_legacy_cost
+# from .matpower_ported.lib.@opf_model.add_named_set import add_named_set
+# from .matpower_ported.lib.@opf_model.add_vars import add_vars
+# from .matpower_ported.lib.@opf_model.build_cost_params import build_cost_params
+# from .matpower_ported.lib.@opf_model.compute_cost import compute_cost
+# from .matpower_ported.lib.@opf_model.display import display
+# from .matpower_ported.lib.@opf_model.eval_legacy_cost import eval_legacy_cost
+# from .matpower_ported.lib.@opf_model.getv import getv
+# from .matpower_ported.lib.@opf_model.get_cost_params import get_cost_params
+# from .matpower_ported.lib.@opf_model.get_mpc import get_mpc
+# from .matpower_ported.lib.@opf_model.init_indexed_name import init_indexed_name
+# from .matpower_ported.lib.@opf_model.linear_constraints import linear_constraints
+# from .matpower_ported.lib.@opf_model.opf_model import opf_model
+# from .matpower_ported.lib.@opf_model.params_legacy_cost import params_legacy_cost
 from .matpower_ported.lib.t.opf_nle_fcn1 import opf_nle_fcn1
 from .matpower_ported.lib.t.opf_nle_hess1 import opf_nle_hess1
 from .matpower_ported.lib.t.test_matpower import test_matpower
@@ -341,9 +341,9 @@ from .matpower_ported.lib.t.t_scale_load import t_scale_load
 from .matpower_ported.lib.t.t_total_load import t_total_load
 from .matpower_ported.lib.t.t_totcost import t_totcost
 from .matpower_ported.lib.t.t_vdep_load import t_vdep_load
-from .matpower_ported.lib.t.t_feval_w_path.rithmaticker import rithmaticker
-from .matpower_ported.lib.t.t_feval_w_path.rithmaticker_timeser import rithmaticker_timeser
-from .matpower_ported.lib.t.t_loadcase.case_for_off_path_test import case_for_off_path_test
+# from .matpower_ported.lib.t.t_feval_w_path.rithmaticker import rithmaticker
+# from .matpower_ported.lib.t.t_feval_w_path.rithmaticker_timeser import rithmaticker_timeser
+# from .matpower_ported.lib.t.t_loadcase.case_for_off_path_test import case_for_off_path_test
 from .matpower_ported.mips.lib.Contents import Contents
 from .matpower_ported.mips.lib.mips import mips
 from .matpower_ported.mips.lib.mipsver import mipsver
@@ -419,99 +419,99 @@ from .matpower_ported.most.lib.t.t_most_suc import t_most_suc
 from .matpower_ported.most.lib.t.t_most_uc import t_most_uc
 from .matpower_ported.most.lib.t.t_most_w_ds import t_most_w_ds
 from .matpower_ported.most.lib.t.uniformwindprofile import uniformwindprofile
-from .matpower_ported.mp-opt-model.lib.clp_options import clp_options
-from .matpower_ported.mp-opt-model.lib.Contents import Contents
-from .matpower_ported.mp-opt-model.lib.cplex_options import cplex_options
-from .matpower_ported.mp-opt-model.lib.glpk_options import glpk_options
-from .matpower_ported.mp-opt-model.lib.gurobiver import gurobiver
-from .matpower_ported.mp-opt-model.lib.gurobi_options import gurobi_options
-from .matpower_ported.mp-opt-model.lib.have_fcn import have_fcn
-from .matpower_ported.mp-opt-model.lib.ipopt_options import ipopt_options
-from .matpower_ported.mp-opt-model.lib.miqps_cplex import miqps_cplex
-from .matpower_ported.mp-opt-model.lib.miqps_glpk import miqps_glpk
-from .matpower_ported.mp-opt-model.lib.miqps_gurobi import miqps_gurobi
-from .matpower_ported.mp-opt-model.lib.miqps_master import miqps_master
-from .matpower_ported.mp-opt-model.lib.miqps_mosek import miqps_mosek
-from .matpower_ported.mp-opt-model.lib.miqps_ot import miqps_ot
-from .matpower_ported.mp-opt-model.lib.mosek_options import mosek_options
-from .matpower_ported.mp-opt-model.lib.mosek_symbcon import mosek_symbcon
-from .matpower_ported.mp-opt-model.lib.mpomver import mpomver
-from .matpower_ported.mp-opt-model.lib.mpopt2nleqopt import mpopt2nleqopt
-from .matpower_ported.mp-opt-model.lib.mpopt2nlpopt import mpopt2nlpopt
-from .matpower_ported.mp-opt-model.lib.mpopt2qpopt import mpopt2qpopt
-from .matpower_ported.mp-opt-model.lib.nested_struct_copy import nested_struct_copy
-from .matpower_ported.mp-opt-model.lib.nleqs_fsolve import nleqs_fsolve
-from .matpower_ported.mp-opt-model.lib.nleqs_master import nleqs_master
-from .matpower_ported.mp-opt-model.lib.nleqs_newton import nleqs_newton
-from .matpower_ported.mp-opt-model.lib.nlps_fmincon import nlps_fmincon
-from .matpower_ported.mp-opt-model.lib.nlps_ipopt import nlps_ipopt
-from .matpower_ported.mp-opt-model.lib.nlps_knitro import nlps_knitro
-from .matpower_ported.mp-opt-model.lib.nlps_master import nlps_master
-from .matpower_ported.mp-opt-model.lib.nlp_consfcn import nlp_consfcn
-from .matpower_ported.mp-opt-model.lib.nlp_costfcn import nlp_costfcn
-from .matpower_ported.mp-opt-model.lib.nlp_hessfcn import nlp_hessfcn
-from .matpower_ported.mp-opt-model.lib.qps_bpmpd import qps_bpmpd
-from .matpower_ported.mp-opt-model.lib.qps_clp import qps_clp
-from .matpower_ported.mp-opt-model.lib.qps_cplex import qps_cplex
-from .matpower_ported.mp-opt-model.lib.qps_glpk import qps_glpk
-from .matpower_ported.mp-opt-model.lib.qps_gurobi import qps_gurobi
-from .matpower_ported.mp-opt-model.lib.qps_ipopt import qps_ipopt
-from .matpower_ported.mp-opt-model.lib.qps_master import qps_master
-from .matpower_ported.mp-opt-model.lib.qps_mosek import qps_mosek
-from .matpower_ported.mp-opt-model.lib.qps_ot import qps_ot
-from .matpower_ported.mp-opt-model.lib.@mp_idx_manager.add_named_set import add_named_set
-from .matpower_ported.mp-opt-model.lib.@mp_idx_manager.describe_idx import describe_idx
-from .matpower_ported.mp-opt-model.lib.@mp_idx_manager.get import get
-from .matpower_ported.mp-opt-model.lib.@mp_idx_manager.getN import getN
-from .matpower_ported.mp-opt-model.lib.@mp_idx_manager.get_idx import get_idx
-from .matpower_ported.mp-opt-model.lib.@mp_idx_manager.get_userdata import get_userdata
-from .matpower_ported.mp-opt-model.lib.@mp_idx_manager.init_indexed_name import init_indexed_name
-from .matpower_ported.mp-opt-model.lib.@mp_idx_manager.mp_idx_manager import mp_idx_manager
-from .matpower_ported.mp-opt-model.lib.@mp_idx_manager.valid_named_set_type import valid_named_set_type
-from .matpower_ported.mp-opt-model.lib.@opt_model.add_lin_constraint import add_lin_constraint
-from .matpower_ported.mp-opt-model.lib.@opt_model.add_named_set import add_named_set
-from .matpower_ported.mp-opt-model.lib.@opt_model.add_nln_constraint import add_nln_constraint
-from .matpower_ported.mp-opt-model.lib.@opt_model.add_nln_cost import add_nln_cost
-from .matpower_ported.mp-opt-model.lib.@opt_model.add_quad_cost import add_quad_cost
-from .matpower_ported.mp-opt-model.lib.@opt_model.add_var import add_var
-from .matpower_ported.mp-opt-model.lib.@opt_model.display import display
-from .matpower_ported.mp-opt-model.lib.@opt_model.eval_nln_constraint import eval_nln_constraint
-from .matpower_ported.mp-opt-model.lib.@opt_model.eval_nln_constraint_hess import eval_nln_constraint_hess
-from .matpower_ported.mp-opt-model.lib.@opt_model.eval_nln_cost import eval_nln_cost
-from .matpower_ported.mp-opt-model.lib.@opt_model.eval_quad_cost import eval_quad_cost
-from .matpower_ported.mp-opt-model.lib.@opt_model.get_idx import get_idx
-from .matpower_ported.mp-opt-model.lib.@opt_model.init_indexed_name import init_indexed_name
-from .matpower_ported.mp-opt-model.lib.@opt_model.is_mixed_integer import is_mixed_integer
-from .matpower_ported.mp-opt-model.lib.@opt_model.opt_model import opt_model
-from .matpower_ported.mp-opt-model.lib.@opt_model.params_lin_constraint import params_lin_constraint
-from .matpower_ported.mp-opt-model.lib.@opt_model.params_nln_constraint import params_nln_constraint
-from .matpower_ported.mp-opt-model.lib.@opt_model.params_nln_cost import params_nln_cost
-from .matpower_ported.mp-opt-model.lib.@opt_model.params_quad_cost import params_quad_cost
-from .matpower_ported.mp-opt-model.lib.@opt_model.params_var import params_var
-from .matpower_ported.mp-opt-model.lib.@opt_model.problem_type import problem_type
-from .matpower_ported.mp-opt-model.lib.@opt_model.solve import solve
-from .matpower_ported.mp-opt-model.lib.@opt_model.varsets_cell2struct import varsets_cell2struct
-from .matpower_ported.mp-opt-model.lib.@opt_model.varsets_idx import varsets_idx
-from .matpower_ported.mp-opt-model.lib.@opt_model.varsets_len import varsets_len
-from .matpower_ported.mp-opt-model.lib.@opt_model.varsets_x import varsets_x
-from .matpower_ported.mp-opt-model.lib.t.nleqs_master_ex1 import nleqs_master_ex1
-from .matpower_ported.mp-opt-model.lib.t.nlps_master_ex1 import nlps_master_ex1
-from .matpower_ported.mp-opt-model.lib.t.nlps_master_ex2 import nlps_master_ex2
-from .matpower_ported.mp-opt-model.lib.t.qp_ex1 import qp_ex1
-from .matpower_ported.mp-opt-model.lib.t.test_mp_opt_model import test_mp_opt_model
-from .matpower_ported.mp-opt-model.lib.t.t_have_fcn import t_have_fcn
-from .matpower_ported.mp-opt-model.lib.t.t_miqps_master import t_miqps_master
-from .matpower_ported.mp-opt-model.lib.t.t_nested_struct_copy import t_nested_struct_copy
-from .matpower_ported.mp-opt-model.lib.t.t_nleqs_master import t_nleqs_master
-from .matpower_ported.mp-opt-model.lib.t.t_nlps_master import t_nlps_master
-from .matpower_ported.mp-opt-model.lib.t.t_om_solve_miqps import t_om_solve_miqps
-from .matpower_ported.mp-opt-model.lib.t.t_om_solve_nleqs import t_om_solve_nleqs
-from .matpower_ported.mp-opt-model.lib.t.t_om_solve_nlps import t_om_solve_nlps
-from .matpower_ported.mp-opt-model.lib.t.t_om_solve_qps import t_om_solve_qps
-from .matpower_ported.mp-opt-model.lib.t.t_opt_model import t_opt_model
-from .matpower_ported.mp-opt-model.lib.t.t_qps_master import t_qps_master
-from .matpower_ported.mp-opt-model.lib.t.t_have_fcn.rithmaticker import rithmaticker
-from .matpower_ported.mp-opt-model.lib.t.t_have_fcn.rithmaticker_timeser import rithmaticker_timeser
+# from .matpower_ported.mp-opt-model.lib.clp_options import clp_options
+# from .matpower_ported.mp-opt-model.lib.Contents import Contents
+# from .matpower_ported.mp-opt-model.lib.cplex_options import cplex_options
+# from .matpower_ported.mp-opt-model.lib.glpk_options import glpk_options
+# from .matpower_ported.mp-opt-model.lib.gurobiver import gurobiver
+# from .matpower_ported.mp-opt-model.lib.gurobi_options import gurobi_options
+# from .matpower_ported.mp-opt-model.lib.have_fcn import have_fcn
+# from .matpower_ported.mp-opt-model.lib.ipopt_options import ipopt_options
+# from .matpower_ported.mp-opt-model.lib.miqps_cplex import miqps_cplex
+# from .matpower_ported.mp-opt-model.lib.miqps_glpk import miqps_glpk
+# from .matpower_ported.mp-opt-model.lib.miqps_gurobi import miqps_gurobi
+# from .matpower_ported.mp-opt-model.lib.miqps_master import miqps_master
+# from .matpower_ported.mp-opt-model.lib.miqps_mosek import miqps_mosek
+# from .matpower_ported.mp-opt-model.lib.miqps_ot import miqps_ot
+# from .matpower_ported.mp-opt-model.lib.mosek_options import mosek_options
+# from .matpower_ported.mp-opt-model.lib.mosek_symbcon import mosek_symbcon
+# from .matpower_ported.mp-opt-model.lib.mpomver import mpomver
+# from .matpower_ported.mp-opt-model.lib.mpopt2nleqopt import mpopt2nleqopt
+# from .matpower_ported.mp-opt-model.lib.mpopt2nlpopt import mpopt2nlpopt
+# from .matpower_ported.mp-opt-model.lib.mpopt2qpopt import mpopt2qpopt
+# from .matpower_ported.mp-opt-model.lib.nested_struct_copy import nested_struct_copy
+# from .matpower_ported.mp-opt-model.lib.nleqs_fsolve import nleqs_fsolve
+# from .matpower_ported.mp-opt-model.lib.nleqs_master import nleqs_master
+# from .matpower_ported.mp-opt-model.lib.nleqs_newton import nleqs_newton
+# from .matpower_ported.mp-opt-model.lib.nlps_fmincon import nlps_fmincon
+# from .matpower_ported.mp-opt-model.lib.nlps_ipopt import nlps_ipopt
+# from .matpower_ported.mp-opt-model.lib.nlps_knitro import nlps_knitro
+# from .matpower_ported.mp-opt-model.lib.nlps_master import nlps_master
+# from .matpower_ported.mp-opt-model.lib.nlp_consfcn import nlp_consfcn
+# from .matpower_ported.mp-opt-model.lib.nlp_costfcn import nlp_costfcn
+# from .matpower_ported.mp-opt-model.lib.nlp_hessfcn import nlp_hessfcn
+# from .matpower_ported.mp-opt-model.lib.qps_bpmpd import qps_bpmpd
+# from .matpower_ported.mp-opt-model.lib.qps_clp import qps_clp
+# from .matpower_ported.mp-opt-model.lib.qps_cplex import qps_cplex
+# from .matpower_ported.mp-opt-model.lib.qps_glpk import qps_glpk
+# from .matpower_ported.mp-opt-model.lib.qps_gurobi import qps_gurobi
+# from .matpower_ported.mp-opt-model.lib.qps_ipopt import qps_ipopt
+# from .matpower_ported.mp-opt-model.lib.qps_master import qps_master
+# from .matpower_ported.mp-opt-model.lib.qps_mosek import qps_mosek
+# from .matpower_ported.mp-opt-model.lib.qps_ot import qps_ot
+# from .matpower_ported.mp-opt-model.lib.@mp_idx_manager.add_named_set import add_named_set
+# from .matpower_ported.mp-opt-model.lib.@mp_idx_manager.describe_idx import describe_idx
+# from .matpower_ported.mp-opt-model.lib.@mp_idx_manager.get import get
+# from .matpower_ported.mp-opt-model.lib.@mp_idx_manager.getN import getN
+# from .matpower_ported.mp-opt-model.lib.@mp_idx_manager.get_idx import get_idx
+# from .matpower_ported.mp-opt-model.lib.@mp_idx_manager.get_userdata import get_userdata
+# from .matpower_ported.mp-opt-model.lib.@mp_idx_manager.init_indexed_name import init_indexed_name
+# from .matpower_ported.mp-opt-model.lib.@mp_idx_manager.mp_idx_manager import mp_idx_manager
+# from .matpower_ported.mp-opt-model.lib.@mp_idx_manager.valid_named_set_type import valid_named_set_type
+# from .matpower_ported.mp-opt-model.lib.@opt_model.add_lin_constraint import add_lin_constraint
+# from .matpower_ported.mp-opt-model.lib.@opt_model.add_named_set import add_named_set
+# from .matpower_ported.mp-opt-model.lib.@opt_model.add_nln_constraint import add_nln_constraint
+# from .matpower_ported.mp-opt-model.lib.@opt_model.add_nln_cost import add_nln_cost
+# from .matpower_ported.mp-opt-model.lib.@opt_model.add_quad_cost import add_quad_cost
+# from .matpower_ported.mp-opt-model.lib.@opt_model.add_var import add_var
+# from .matpower_ported.mp-opt-model.lib.@opt_model.display import display
+# from .matpower_ported.mp-opt-model.lib.@opt_model.eval_nln_constraint import eval_nln_constraint
+# from .matpower_ported.mp-opt-model.lib.@opt_model.eval_nln_constraint_hess import eval_nln_constraint_hess
+# from .matpower_ported.mp-opt-model.lib.@opt_model.eval_nln_cost import eval_nln_cost
+# from .matpower_ported.mp-opt-model.lib.@opt_model.eval_quad_cost import eval_quad_cost
+# from .matpower_ported.mp-opt-model.lib.@opt_model.get_idx import get_idx
+# from .matpower_ported.mp-opt-model.lib.@opt_model.init_indexed_name import init_indexed_name
+# from .matpower_ported.mp-opt-model.lib.@opt_model.is_mixed_integer import is_mixed_integer
+# from .matpower_ported.mp-opt-model.lib.@opt_model.opt_model import opt_model
+# from .matpower_ported.mp-opt-model.lib.@opt_model.params_lin_constraint import params_lin_constraint
+# from .matpower_ported.mp-opt-model.lib.@opt_model.params_nln_constraint import params_nln_constraint
+# from .matpower_ported.mp-opt-model.lib.@opt_model.params_nln_cost import params_nln_cost
+# from .matpower_ported.mp-opt-model.lib.@opt_model.params_quad_cost import params_quad_cost
+# from .matpower_ported.mp-opt-model.lib.@opt_model.params_var import params_var
+# from .matpower_ported.mp-opt-model.lib.@opt_model.problem_type import problem_type
+# from .matpower_ported.mp-opt-model.lib.@opt_model.solve import solve
+# from .matpower_ported.mp-opt-model.lib.@opt_model.varsets_cell2struct import varsets_cell2struct
+# from .matpower_ported.mp-opt-model.lib.@opt_model.varsets_idx import varsets_idx
+# from .matpower_ported.mp-opt-model.lib.@opt_model.varsets_len import varsets_len
+# from .matpower_ported.mp-opt-model.lib.@opt_model.varsets_x import varsets_x
+# from .matpower_ported.mp-opt-model.lib.t.nleqs_master_ex1 import nleqs_master_ex1
+# from .matpower_ported.mp-opt-model.lib.t.nlps_master_ex1 import nlps_master_ex1
+# from .matpower_ported.mp-opt-model.lib.t.nlps_master_ex2 import nlps_master_ex2
+# from .matpower_ported.mp-opt-model.lib.t.qp_ex1 import qp_ex1
+# from .matpower_ported.mp-opt-model.lib.t.test_mp_opt_model import test_mp_opt_model
+# from .matpower_ported.mp-opt-model.lib.t.t_have_fcn import t_have_fcn
+# from .matpower_ported.mp-opt-model.lib.t.t_miqps_master import t_miqps_master
+# from .matpower_ported.mp-opt-model.lib.t.t_nested_struct_copy import t_nested_struct_copy
+# from .matpower_ported.mp-opt-model.lib.t.t_nleqs_master import t_nleqs_master
+# from .matpower_ported.mp-opt-model.lib.t.t_nlps_master import t_nlps_master
+# from .matpower_ported.mp-opt-model.lib.t.t_om_solve_miqps import t_om_solve_miqps
+# from .matpower_ported.mp-opt-model.lib.t.t_om_solve_nleqs import t_om_solve_nleqs
+# from .matpower_ported.mp-opt-model.lib.t.t_om_solve_nlps import t_om_solve_nlps
+# from .matpower_ported.mp-opt-model.lib.t.t_om_solve_qps import t_om_solve_qps
+# from .matpower_ported.mp-opt-model.lib.t.t_opt_model import t_opt_model
+# from .matpower_ported.mp-opt-model.lib.t.t_qps_master import t_qps_master
+# from .matpower_ported.mp-opt-model.lib.t.t_have_fcn.rithmaticker import rithmaticker
+# from .matpower_ported.mp-opt-model.lib.t.t_have_fcn.rithmaticker_timeser import rithmaticker_timeser
 from .matpower_ported.mptest.lib.t_begin import t_begin
 from .matpower_ported.mptest.lib.t_end import t_end
 from .matpower_ported.mptest.lib.t_is import t_is

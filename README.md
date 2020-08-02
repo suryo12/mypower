@@ -7,6 +7,8 @@ Containing original myPower function.
 ## mypower/matpower_ported
 Containing callable ported MATPOWER function with Oct2Py nout = max_nout.
 
+Note: Due MATPOWER folder naming, not all function can be imported, but the code is still there ready to be used by manually open the file.
+
 # Requirements
 ## Octave (Tutorial for Windows 10)
 1. Download [octave](https://www.gnu.org/software/octave/download.html) zip.

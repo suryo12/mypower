@@ -1,5 +1,5 @@
 def contab_ACTIVSg10k(*args,nout=1,oc=None):
 	if oc == None:
-		from ..oc_matpower import oc_matpower
+		from ...oc_matpower import oc_matpower
 	oc = oc_matpower()
 	return oc.contab_ACTIVSg10k(*args,nout=nout)
